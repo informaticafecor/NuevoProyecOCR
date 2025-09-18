@@ -1,0 +1,71 @@
+2025-09-17 10:52:20,066 - core.pdf_detector - INFO - PDF requiere OCR - Texto insuficiente: 0 caracteres total, 0.0 por página
+2025-09-17 10:52:20,067 - core.pdf_detector - INFO - PDF analizado: 1 páginas, 0 con texto, OCR necesario: True
+2025-09-17 10:52:20,067 - core.ocr_processor - INFO - Iniciando procesamiento OCR de: input/Oficio.pdf
+2025-09-17 10:52:20,068 - core.pdf_detector - INFO - PDF requiere OCR - Texto insuficiente: 0 caracteres total, 0.0 por página
+2025-09-17 10:52:20,068 - core.pdf_detector - INFO - PDF analizado: 1 páginas, 0 con texto, OCR necesario: True
+2025-09-17 10:52:20,068 - core.ocr_processor - INFO - Aplicando OCR con OCRmyPDF...
+2025-09-17 10:52:20,249 - ocrmypdf.subprocess - ERROR - 
+The program 'unpaper' could not be executed or was not found on your
+system PATH.  This program is required when you use the
+--clean, --clean-final arguments.  You could try omitting these arguments, or install
+the package.
+
+2025-09-17 10:52:20,250 - ocrmypdf.subprocess - INFO - 
+If not already installed, install the Chocolatey package manager. Then use
+a command prompt to install the missing package:
+    choco install unpaper
+
+2025-09-17 10:52:20,251 - core.ocr_processor - ERROR - Error procesando PDF: module 'ocrmypdf.exceptions' has no attribute 'ExitCodeNotOk'
+2025-09-17 10:55:34,219 - core.pdf_detector - INFO - PDF requiere OCR - Texto insuficiente: 0 caracteres total, 0.0 por página
+2025-09-17 10:55:34,220 - core.pdf_detector - INFO - PDF analizado: 1 páginas, 0 con texto, OCR necesario: True
+2025-09-17 10:55:34,220 - core.ocr_processor - INFO - Iniciando procesamiento OCR de: input/Oficio.pdf
+2025-09-17 10:55:34,221 - core.pdf_detector - INFO - PDF requiere OCR - Texto insuficiente: 0 caracteres total, 0.0 por página
+2025-09-17 10:55:34,221 - core.pdf_detector - INFO - PDF analizado: 1 páginas, 0 con texto, OCR necesario: True
+2025-09-17 10:55:34,221 - core.ocr_processor - INFO - Aplicando OCR con OCRmyPDF...
+2025-09-17 10:55:34,275 - ocrmypdf.subprocess - ERROR - 
+The program 'unpaper' could not be executed or was not found on your
+system PATH.  This program is required when you use the
+--clean, --clean-final arguments.  You could try omitting these arguments, or install
+the package.
+
+2025-09-17 10:55:34,275 - ocrmypdf.subprocess - INFO - 
+If not already installed, install the Chocolatey package manager. Then use
+a command prompt to install the missing package:
+    choco install unpaper
+
+2025-09-17 10:55:34,276 - core.ocr_processor - ERROR - Error OCRmyPDF: Could not find program 'unpaper' on the PATH
+2025-09-17 11:54:01,764 - core.pdf_detector - INFO - PDF requiere OCR - Texto insuficiente: 0 caracteres total, 0.0 por página
+2025-09-17 11:54:01,765 - core.pdf_detector - INFO - PDF analizado: 1 páginas, 0 con texto, OCR necesario: True
+2025-09-17 11:54:01,766 - core.ocr_processor - INFO - Iniciando procesamiento OCR de: input/Oficio.pdf
+2025-09-17 11:54:01,767 - core.pdf_detector - INFO - PDF requiere OCR - Texto insuficiente: 0 caracteres total, 0.0 por página
+2025-09-17 11:54:01,767 - core.pdf_detector - INFO - PDF analizado: 1 páginas, 0 con texto, OCR necesario: True
+2025-09-17 11:54:01,768 - core.ocr_processor - INFO - Aplicando OCR con OCRmyPDF...
+2025-09-17 11:54:05,635 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-17 11:54:05,761 - ocrmypdf._pipelines.ocr - INFO - Postprocessing...
+2025-09-17 11:54:06,448 - ocrmypdf._pipeline - INFO - Image optimization ratio: 1.16 savings: 14.1%
+2025-09-17 11:54:06,449 - ocrmypdf._pipeline - INFO - Total file size ratio: 0.73 savings: -36.8%
+2025-09-17 11:54:06,472 - ocrmypdf._pipelines._common - INFO - Output file is a PDF/A-2b (as expected)
+2025-09-17 11:54:06,822 - core.ocr_processor - INFO - OCR aplicado exitosamente
+2025-09-17 11:54:06,823 - core.ocr_processor - INFO - Procesamiento exitoso: output/Oficio_ocr.pdf
+2025-09-17 11:56:26,638 - core.pdf_detector - INFO - PDF requiere OCR - Texto insuficiente: 0 caracteres total, 0.0 por página
+2025-09-17 11:56:26,638 - core.pdf_detector - INFO - PDF analizado: 32 páginas, 0 con texto, OCR necesario: True
+2025-09-17 11:56:26,639 - core.ocr_processor - INFO - Iniciando procesamiento OCR de: input/SENTENCIA.pdf
+2025-09-17 11:56:26,644 - core.pdf_detector - INFO - PDF requiere OCR - Texto insuficiente: 0 caracteres total, 0.0 por página
+2025-09-17 11:56:26,644 - core.pdf_detector - INFO - PDF analizado: 32 páginas, 0 con texto, OCR necesario: True
+2025-09-17 11:56:26,644 - core.ocr_processor - INFO - Aplicando OCR con OCRmyPDF...
+2025-09-17 11:56:27,163 - ocrmypdf._pipelines.ocr - INFO - Start processing 20 pages concurrently
+2025-09-17 11:56:39,079 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-17 11:56:48,226 - ocrmypdf._pipelines.ocr - INFO - Postprocessing...
+2025-09-17 11:56:50,106 - ocrmypdf._metadata - WARNING - Some input metadata could not be copied because it is not permitted in PDF/A. You may wish to examine the output PDF's XMP metadata.
+2025-09-17 11:56:56,292 - ocrmypdf._pipeline - INFO - Image optimization ratio: 1.07 savings: 6.3%
+2025-09-17 11:56:56,292 - ocrmypdf._pipeline - INFO - Total file size ratio: 0.62 savings: -61.5%
+2025-09-17 11:56:56,344 - ocrmypdf._pipelines._common - INFO - Output file is a PDF/A-2b (as expected)
+2025-09-17 11:57:07,965 - ocrmypdf._validation - WARNING - The output file size is 1.61× larger than the input file.
+Possible reasons for this include:
+--force-ocr was issued, causing transcoding.
+The optional dependency 'jbig2' was not found, so some image optimizations could not be attempted.
+The optional dependency 'pngquant' was not found, so some image optimizations could not be attempted.
+PDF/A conversion was enabled. (Try `--output-type pdf`.)
+
+2025-09-17 11:57:08,020 - core.ocr_processor - INFO - OCR aplicado exitosamente
+2025-09-17 11:57:08,020 - core.ocr_processor - INFO - Procesamiento exitoso: output/SENTENCIA_ocr.pdf
