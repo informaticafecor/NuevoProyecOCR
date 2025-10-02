@@ -69,3 +69,126 @@ PDF/A conversion was enabled. (Try `--output-type pdf`.)
 
 2025-09-17 11:57:08,020 - core.ocr_processor - INFO - OCR aplicado exitosamente
 2025-09-17 11:57:08,020 - core.ocr_processor - INFO - Procesamiento exitoso: output/SENTENCIA_ocr.pdf
+2025-09-23 08:24:15,600 - core.pdf_detector - INFO - PDF requiere OCR - Texto insuficiente: 0 caracteres total, 0.0 por página
+2025-09-23 08:24:15,602 - core.pdf_detector - INFO - PDF analizado: 1 páginas, 0 con texto, OCR necesario: True
+2025-09-23 08:24:15,602 - core.ocr_processor - INFO - Iniciando procesamiento OCR de: input/Oficio.pdf
+2025-09-23 08:24:15,603 - core.pdf_detector - INFO - PDF requiere OCR - Texto insuficiente: 0 caracteres total, 0.0 por página
+2025-09-23 08:24:15,603 - core.pdf_detector - INFO - PDF analizado: 1 páginas, 0 con texto, OCR necesario: True
+2025-09-23 08:24:15,603 - core.ocr_processor - INFO - Aplicando OCR con OCRmyPDF...
+2025-09-23 08:24:19,194 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-23 08:24:19,341 - ocrmypdf._pipelines.ocr - INFO - Postprocessing...
+2025-09-23 08:24:20,078 - ocrmypdf._pipeline - INFO - Image optimization ratio: 1.16 savings: 14.1%
+2025-09-23 08:24:20,078 - ocrmypdf._pipeline - INFO - Total file size ratio: 0.73 savings: -36.8%
+2025-09-23 08:24:20,095 - ocrmypdf._pipelines._common - INFO - Output file is a PDF/A-2b (as expected)
+2025-09-23 08:24:20,479 - core.ocr_processor - INFO - OCR aplicado exitosamente
+2025-09-23 08:24:20,479 - core.ocr_processor - INFO - Procesamiento exitoso: output/Oficio_ocr.pdf
+2025-09-24 09:18:58,519 - core.pdf_detector - INFO - PDF requiere OCR - Texto insuficiente: 1399 caracteres total, 19.7 por página
+2025-09-24 09:18:58,521 - core.pdf_detector - INFO - PDF analizado: 71 páginas, 10 con texto, OCR necesario: True
+2025-09-24 09:18:58,521 - core.ocr_processor - INFO - Iniciando procesamiento OCR de: input/ACTAS.pdf
+2025-09-24 09:18:58,557 - core.pdf_detector - INFO - PDF requiere OCR - Texto insuficiente: 1399 caracteres total, 19.7 por página
+2025-09-24 09:18:58,557 - core.pdf_detector - INFO - PDF analizado: 71 páginas, 10 con texto, OCR necesario: True
+2025-09-24 09:18:58,557 - core.ocr_processor - INFO - Aplicando OCR con OCRmyPDF...
+2025-09-24 09:19:01,060 - ocrmypdf._pipelines.ocr - INFO - Start processing 20 pages concurrently
+2025-09-24 09:19:01,063 - ocrmypdf._pipeline - INFO - page already has text! - rasterizing text and running OCR anyway
+2025-09-24 09:19:01,063 - ocrmypdf._pipeline - INFO - page already has text! - rasterizing text and running OCR anyway
+2025-09-24 09:19:01,067 - ocrmypdf._pipeline - INFO - page already has text! - rasterizing text and running OCR anyway
+2025-09-24 09:19:01,069 - ocrmypdf._pipeline - INFO - page already has text! - rasterizing text and running OCR anyway
+2025-09-24 09:19:01,079 - ocrmypdf._pipeline - INFO - page already has text! - rasterizing text and running OCR anyway
+2025-09-24 09:19:21,101 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:21,135 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:21,174 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:21,240 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:21,729 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:22,106 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:22,195 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:22,197 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:22,214 - ocrmypdf._pipeline - INFO - page already has text! - rasterizing text and running OCR anyway
+2025-09-24 09:19:22,342 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:22,342 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:22,639 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:22,686 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:22,717 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:23,034 - ocrmypdf._pipeline - INFO - page already has text! - rasterizing text and running OCR anyway
+2025-09-24 09:19:23,160 - ocrmypdf._pipeline - INFO - page already has text! - rasterizing text and running OCR anyway
+2025-09-24 09:19:24,465 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:25,102 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:41,899 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:41,970 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:42,033 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:43,438 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:43,441 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:43,570 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:45,050 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:45,953 - ocrmypdf._pipeline - INFO - page already has text! - rasterizing text and running OCR anyway
+2025-09-24 09:19:46,064 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:46,970 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:48,010 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:48,232 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:49,189 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:49,400 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:49,572 - ocrmypdf._pipeline - INFO - page already has text! - rasterizing text and running OCR anyway
+2025-09-24 09:19:49,590 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:49,736 - ocrmypdf._pipeline - INFO - page already has text! - rasterizing text and running OCR anyway
+2025-09-24 09:19:49,744 - ocrmypdf._pipeline - INFO - page already has text! - rasterizing text and running OCR anyway
+2025-09-24 09:19:54,215 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:54,305 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:54,920 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:55,143 - ocrmypdf._pipeline - INFO - page already has text! - rasterizing text and running OCR anyway
+2025-09-24 09:19:55,524 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:55,830 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:56,152 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:56,305 - ocrmypdf._pipeline - INFO - page already has text! - rasterizing text and running OCR anyway
+2025-09-24 09:19:56,821 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:57,003 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:57,031 - ocrmypdf._pipeline - INFO - page already has text! - rasterizing text and running OCR anyway
+2025-09-24 09:19:57,127 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:57,184 - ocrmypdf._pipeline - INFO - page already has text! - rasterizing text and running OCR anyway
+2025-09-24 09:19:57,361 - ocrmypdf._pipeline - INFO - page already has text! - rasterizing text and running OCR anyway
+2025-09-24 09:19:57,640 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:57,641 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:57,827 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:58,318 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:58,619 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:19:58,789 - ocrmypdf._pipeline - INFO - page already has text! - rasterizing text and running OCR anyway
+2025-09-24 09:19:58,885 - ocrmypdf._pipeline - INFO - page already has text! - rasterizing text and running OCR anyway
+2025-09-24 09:20:03,397 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:20:03,849 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:20:04,185 - ocrmypdf._pipeline - INFO - page already has text! - rasterizing text and running OCR anyway
+2025-09-24 09:20:11,881 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:20:11,987 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:20:12,160 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:20:12,857 - ocrmypdf._pipeline - INFO - page already has text! - rasterizing text and running OCR anyway
+2025-09-24 09:20:13,984 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:20:15,356 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:20:16,363 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:20:18,073 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:20:18,131 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:20:22,455 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:20:22,479 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:20:25,566 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:20:26,179 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:20:28,270 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:20:29,727 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:20:30,096 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:20:31,155 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:20:31,335 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:20:31,608 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:20:32,228 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:20:32,457 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:20:32,545 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:20:33,596 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:20:35,082 - ocrmypdf._exec.tesseract - WARNING - [tesseract] lots of diacritics - possibly poor OCR
+2025-09-24 09:20:35,813 - ocrmypdf._pipelines.ocr - INFO - Postprocessing...
+2025-09-24 09:20:50,305 - ocrmypdf._metadata - WARNING - Some input metadata could not be copied because it is not permitted in PDF/A. You may wish to examine the output PDF's XMP metadata.
+2025-09-24 09:22:23,873 - ocrmypdf._pipeline - INFO - Image optimization ratio: 1.03 savings: 2.7%
+2025-09-24 09:22:23,874 - ocrmypdf._pipeline - INFO - Total file size ratio: 0.61 savings: -64.1%
+2025-09-24 09:22:25,853 - ocrmypdf._pipelines._common - INFO - Output file is a PDF/A-2b (as expected)
+2025-09-24 09:24:21,769 - ocrmypdf._validation - WARNING - The output file size is 1.64× larger than the input file.
+Possible reasons for this include:
+--force-ocr was issued, causing transcoding.
+The optional dependency 'jbig2' was not found, so some image optimizations could not be attempted.
+The optional dependency 'pngquant' was not found, so some image optimizations could not be attempted.
+PDF/A conversion was enabled. (Try `--output-type pdf`.)
+
+2025-09-24 09:24:21,947 - core.ocr_processor - INFO - OCR aplicado exitosamente
+2025-09-24 09:24:21,950 - core.ocr_processor - INFO - Procesamiento exitoso: output/ACTAS_ocr.pdf

@@ -25,6 +25,7 @@ from utils.validators import FileValidator, SystemValidator
 from core.pdf_detector import PDFDetector
 from core.ocr_processor import OCRProcessor
 from core.file_manager import FileManager
+# from services.summary_service import SummaryService  # Desactivado temporalmente
 
 # Inicializar colorama para colores en Windows
 init(autoreset=True)
@@ -208,6 +209,18 @@ def main():
     parser.add_argument('--forzar-ocr', '-f', 
                        action='store_true',
                        help='Forzar OCR incluso si el PDF ya tiene texto')
+    parser.add_argument('--resumen', '-r', 
+                       action='store_true',
+                       help='Generar resumen automático del PDF')
+    parser.add_argument('--modelo', '-m', 
+                       default='mistral:7b',
+                       help='Modelo de IA para resumen (por defecto: mistral:7b)')
+    parser.add_argument('--solo-resumen', '-s',
+                       action='store_true',
+                       help='Solo generar resumen (sin OCR)')
+    parser.add_argument('--preview', '-p',
+                       action='store_true',
+                       help='Mostrar vista previa del documento')
     parser.add_argument('--log-level', 
                        default='INFO',
                        choices=['DEBUG', 'INFO', 'WARNING', 'ERROR'],
@@ -236,12 +249,37 @@ def main():
         # Actualizar configuración con argumentos
         Config.OCRMYPDF_CONFIG['language'] = args.idioma
         
-        # Procesar archivo
-        success = process_single_pdf(
-            args.input_file, 
-            args.output_file, 
-            args.forzar_ocr
-        )
+        # Procesar según opciones
+        if args.preview:
+            # Solo mostrar vista previa
+            success = show_preview(args.input_file)
+        
+        elif args.solo_resumen:
+            # Solo generar resumen (sin OCR)
+            success = generate_summary(args.input_file, args.modelo)
+        
+        elif args.resumen:
+            # OCR + Resumen
+            ocr_success = process_single_pdf(
+                args.input_file, 
+                args.output_file, 
+                args.forzar_ocr
+            )
+            
+            if ocr_success:
+                print_status("🔄 Continuando con generación de resumen...", 'INFO')
+                summary_success = generate_summary(args.output_file, args.modelo)
+                success = ocr_success and summary_success
+            else:
+                success = False
+        
+        else:
+            # Solo OCR
+            success = process_single_pdf(
+                args.input_file, 
+                args.output_file, 
+                args.forzar_ocr
+            )
         
         if success:
             print_status("🎉 ¡Procesamiento completado exitosamente!", 'SUCCESS')
